@@ -1,0 +1,120 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+}
+
+
+h1{
+  border: 0px solid;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
+  font-family: 'fantasy', Times;
+  font-size: 40px;
+  margin-bottom: 0%;
+  padding: 15px 25px;
+}
+.navbar {
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+}
+
+  .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+  
+  li {
+  float: left;
+  }
+  
+  li a, .dropla {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropla {
+  background-color: red;
+  }
+  
+  li.dropdown {
+  display: inline-block;
+  }
+  
+  .drop {
+  display: none;
+  position:fixed;
+  background-color: #f9f9f9;
+  min-width: 40px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  
+  .drop a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  }
+  
+  .drop a:hover {
+      background-color: #776d6d;
+  }
+  
+  .dropdown:hover .drop {
+  display: block;
+  }
+form{
+  float: right;
+  width: 15%;
+  margin-top: -3%;
+}
+.tag{
+    border: 1px solid white;
+      margin-top: 2%;
+      margin-left: 40%;
+      list-style-type: none;
+      position: relative;
+      font-size: x-large;
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      width: 15%;
+      height: auto;
+      color: rgb(255, 255, 255);
+      clear:unset;
+}
+  .page{
+    margin-bottom: 1%;
+  }
+  .panah{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    float:left ;
+    margin-bottom: 0%;
+    color: rgb(255, 255, 255);
+  }
+  .p{
+    font-size: 30px;
+  }
+  .next{
+    color: rgb(255, 255, 255);
+  }
+  .previous{
+    color: rgb(255, 255, 255);
+  }
+ 
